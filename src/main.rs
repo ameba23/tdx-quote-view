@@ -15,6 +15,6 @@ fn main() {
     let output = quote.read_output().unwrap();
 
     let quote_structured = Quote::from_bytes(&output).unwrap();
-    println!("Quote: {:?}", quote_structured);
+    println!("Quote mrtd: {:?}", quote_structured.mrtd());
     println!("Generation: {}", quote.read_generation().unwrap());
 }
