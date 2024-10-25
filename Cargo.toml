@@ -1,0 +1,8 @@
+[package]
+name = "tdx-quote-view"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+configfs-tsm = "0.0.1"
+tdx-quote = "0.0.1"
